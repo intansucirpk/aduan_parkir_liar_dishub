@@ -38,16 +38,14 @@ Keamanan: password admin disimpan dengan hashing (`password_hash()` dan `passwor
 
 ## Screenshot
 
-<!-- Ganti dengan screenshot milikmu. Simpan gambar di folder `screenshots/`. -->
+### Form Aduan (Masyarakat)
+<img src="https://github.com/user-attachments/assets/e23b821d-b2bc-4994-9a3b-5546f1bb4629" alt="Form Aduan" width="700">
 
-| Halaman | Tampilan |
-|---|---|
-| Form aduan | <img width="1760" height="1662" alt="screencapture-localhost-dishub-aduan-parkir-liar-user-index-php-2026-10-22-17_42_36" src="https://github.com/user-attachments/assets/e23b821d-b2bc-4994-9a3b-5546f1bb4629" />
-  
-| Login admin | <img width="1760" height="822" alt="screencapture-localhost-dishub-aduan-parkir-liar-admin-2026-10-22-17_41_53" src="https://github.com/user-attachments/assets/612ebc08-47dd-4d22-bffd-44902613ac89" />
- 
-| Dashboard admin | <img width="1760" height="1197" alt="screencapture-localhost-dishub-aduan-parkir-liar-admin-dashboard-php-2026-10-22-17_40_15" src="https://github.com/user-attachments/assets/d80435ef-51d3-443e-868c-d2de3c2642c1" />
-|
+### Login Admin
+<img src="https://github.com/user-attachments/assets/612ebc08-47dd-4d22-bffd-44902613ac89" alt="Login Admin" width="700">
+
+### Dashboard Admin
+<img src="https://github.com/user-attachments/assets/d80435ef-51d3-443e-868c-d2de3c2642c1" alt="Dashboard Admin" width="700">
 
 ---
 
