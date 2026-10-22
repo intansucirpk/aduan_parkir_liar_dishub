@@ -42,8 +42,10 @@ Keamanan: password admin disimpan dengan hashing (`password_hash()` dan `passwor
 
 | Halaman | Tampilan |
 |---|---|
-| Form aduan | ![Form Aduan](screenshots/form-aduan.png)  |
-| Login admin | ![Login Admin](screenshots/login-admin.png) |
+| Form aduan | <img width="1760" height="1662" alt="screencapture-localhost-dishub-aduan-parkir-liar-user-index-php-2026-10-22-17_42_36" src="https://github.com/user-attachments/assets/e23b821d-b2bc-4994-9a3b-5546f1bb4629" />
+  |
+| Login admin | <img width="1760" height="822" alt="screencapture-localhost-dishub-aduan-parkir-liar-admin-2026-10-22-17_41_53" src="https://github.com/user-attachments/assets/612ebc08-47dd-4d22-bffd-44902613ac89" />
+ |
 | Dashboard admin | <img width="1760" height="1197" alt="screencapture-localhost-dishub-aduan-parkir-liar-admin-dashboard-php-2026-10-22-17_40_15" src="https://github.com/user-attachments/assets/d80435ef-51d3-443e-868c-d2de3c2642c1" />
 |
 
@@ -58,7 +60,7 @@ Pasang [XAMPP](https://www.apachefriends.org/) terlebih dahulu.
 Unduh atau clone repository ini, lalu taruh foldernya di:
 
 ```
-C:\xampp\htdocs\aduan_parkir
+C:\xampp\htdocs\dishub_aduan_parkir_liar
 ```
 
 ### 3. Jalankan server
@@ -66,9 +68,9 @@ Buka **XAMPP Control Panel**, lalu klik **Start** pada **Apache** dan **MySQL**.
 
 ### 4. Impor database
 1. Buka `http://localhost/phpmyadmin`
-2. Buat database baru, misalnya `aduan_parkir` <!-- sesuaikan dengan nama di connect.php -->
+2. Buat database baru, `sistem_aduan` <!-- sesuaikan dengan nama di connect.php -->
 3. Pilih database tersebut, klik tab **Import**
-4. Pilih file `database/aduan_parkir.sql`, lalu klik **Go**
+4. Pilih file `database/sistem_aduan.sql`, lalu klik **Go**
 
 ### 5. Sesuaikan koneksi database
 Buka file `connect.php` dan pastikan isinya sesuai:
@@ -77,12 +79,12 @@ Buka file `connect.php` dan pastikan isinya sesuai:
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "aduan_parkir"; // sesuaikan dengan nama database kamu
+$db   = "sistem_aduan";
 ```
 
 ### 6. Buka aplikasi
 ```
-http://localhost/aduan_parkir
+http://localhost/dishub_aduan_parkir_liar
 ```
 
 ---
@@ -97,39 +99,16 @@ Akun ini hanya untuk **demo**. Jangan dipakai di sistem yang sebenarnya.
 
 ---
 
-## Struktur Folder
-
-```
-aduan_parkir/
-├── database/
-│   └── aduan_parkir.sql    # struktur dan data contoh
-├── screenshots/            # gambar untuk README
-├── connect.php             # koneksi database
-├── index.php               # halaman utama / login
-├── login.php               # proses login admin
-├── dashboard.php           # dashboard admin
-└── README.md
-```
-<!-- Sesuaikan dengan struktur folder yang sebenarnya -->
-
----
 
 ## Informasi Proyek
 
 - **Jenis:** Tugas Kerja Praktek (KP)
 - **Instansi:** Dinas Perhubungan Kabupaten Bangkalan
 - **Pembuat:** Intan Suci Ramadhani Purnama Kuncoro
-- **Program Studi:** Teknik Informatika, Universitas Trunojoyo Madura
+- **Program Studi:** Teknik Informatika, Universitas Trunodjoyo Madura
 
 ---
 
-## Pengembangan Selanjutnya
-
-- <!-- contoh: notifikasi status aduan ke pelapor -->
-- <!-- contoh: peta lokasi aduan -->
-- <!-- contoh: deploy ke hosting -->
-
----
 
 ## Lisensi
 
