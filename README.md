@@ -12,12 +12,13 @@ Masyarakat dapat mengirim aduan secara online, dan admin dapat memantau serta me
 
 **Masyarakat**
 - Mengirim aduan parkir liar melalui formulir online
-- <!-- tambahkan: unggah foto bukti, pilih lokasi, dll. (hapus jika tidak ada) -->
+- Melihat Status Aduan
 
 **Admin**
 - Login admin
-- Melihat daftar aduan yang masuk
-- <!-- tambahkan: ubah status aduan, hapus aduan, cetak laporan, dll. (hapus jika tidak ada) -->
+- Melihat grafik statistik dan daftar aduan yang masuk
+- Melihat laporan dan statistik aduan
+- Mengelola Aduan
 - Logout
 
 ---
@@ -29,7 +30,7 @@ Masyarakat dapat mengirim aduan secara online, dan admin dapat memantau serta me
 | Bahasa | PHP |
 | Database | MySQL |
 | Server lokal | XAMPP (Apache + MySQL) |
-| Front-end | HTML, CSS <!-- tambahkan: Bootstrap, JavaScript, dll. --> |
+| Front-end | HTML, CSS, Bootstrap, JavaScript |
 
 Keamanan: password admin disimpan dengan hashing (`password_hash()` dan `password_verify()`), query memakai *prepared statement*.
 
@@ -41,9 +42,10 @@ Keamanan: password admin disimpan dengan hashing (`password_hash()` dan `passwor
 
 | Halaman | Tampilan |
 |---|---|
-| Form aduan | ![Form Aduan](screenshots/form-aduan.png) |
+| Form aduan | ![Form Aduan](screenshots/form-aduan.png)  |
 | Login admin | ![Login Admin](screenshots/login-admin.png) |
-| Dashboard admin | ![Dashboard](screenshots/dashboard.png) |
+| Dashboard admin | <img width="1760" height="1197" alt="screencapture-localhost-dishub-aduan-parkir-liar-admin-dashboard-php-2026-10-22-17_40_15" src="https://github.com/user-attachments/assets/d80435ef-51d3-443e-868c-d2de3c2642c1" />
+|
 
 ---
 
