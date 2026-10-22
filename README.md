@@ -4,7 +4,6 @@ Aplikasi web untuk menerima dan mengelola aduan masyarakat terkait **parkir liar
 
 Masyarakat dapat mengirim aduan secara online, dan admin dapat memantau serta mengelola aduan tersebut melalui dashboard.
 
-> **Catatan:** Repository ini hanya berisi **data contoh (dummy)**. Tidak ada data asli milik instansi.
 
 ---
 
